@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Showdown</title>
+    <link rel="stylesheet" href="Classic Showdown.css">
+    <script defer src="gamecode.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to the Classic Showdown!</h1>
+            <p>Explore fun games and features below:</p>
+        </header>
+        <main>
+            <section>
+                <h2>Description</h2>
+                <p>The Classic Showdown has games like Tic-Tac-Toe and Rock-Paper-Scissors. You can play these games against the computer and have lots of fun!</p>
+            </section>
+            <section>
+                <h2>Features</h2>
+                <ul>
+                    <li><button onclick="startTicTacToe()">Play Tic-Tac-Toe</button></li>
+                    <li><button onclick="startRockPaperScissors()">Play Rock-Paper-Scissors</button></li>
+                    <li><button onclick="viewScores()">View Scores</button></li>
+                    <li><button onclick="addPlayer()">Add Player</button></li>
+                    <li><button onclick="startMultiThreadingExample()">Multi-Threading Example</button></li>
+                    <li><button onclick="useChatbot()">Chatbot Interaction</button></li>
+                </ul>
+            </section>
+            <section>
+                <h2>Tic-Tac-Toe</h2>
+                <div id="ticTacToeBoard" class="tic-tac-toe-board"></div>
+            </section>
+            <section>
+                <h2>Instructions</h2>
+                <p>Here's how to play the games:</p>
+                <ul>
+                    <li><strong>Tic-Tac-Toe:</strong>
+                        <ol>
+                            <li>Click "Play Tic-Tac-Toe" to start.</li>
+                            <li>The game board with a 3x3 grid will appear.</li>
+                            <li>Take turns clicking an empty cell to place your X or O.</li>
+                            <li>Get three X's or O's in a row to win!</li>
+                            <li>If all cells are filled and no one wins, it's a draw.</li>
+                        </ol>
+                    </li>
+                    <li><strong>Rock-Paper-Scissors:</strong>
+                        <ol>
+                            <li>Click "Play Rock-Paper-Scissors" to start.</li>
+                            <li>Type Rock, Paper, or Scissors when prompted.</li>
+                            <li>See if you beat the computer!</li>
+                            <li>Rock beats Scissors, Scissors beat Paper, and Paper beats Rock.</li>
+                            <li>If you both choose the same, it's a tie!</li>
+                        </ol>
+                    </li>
+                    <li><strong>View Scores:</strong> Click to see your game scores.</li>
+                    <li><strong>Add Player:</strong> Click to add your name before playing.</li>
+                    <li><strong>Multi-Threading Example:</strong> See how things happen at the same time!</li>
+                    <li><strong>Chatbot Interaction:</strong> Say hi and see what happens!</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Contact</h2>
+                <p>If you have questions, email us at <a href="mailto:EdwMills@uat.edu">EdwMills@uat.edu</a>.</p>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
